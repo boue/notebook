@@ -1,0 +1,10 @@
+/*
+ * removed require tree as it grabs all the other css files and minifies them, but we don't want to leave it to chance how they are added. Some styles will need
+ * to be override
+ *= require_self
+ */
+
+@import 'normalize.css';
+@import 'global.css.scss';
+@import 'notes.css.scss';
+@import 'welcome.css.scss';
